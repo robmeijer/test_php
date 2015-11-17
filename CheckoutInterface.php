@@ -1,10 +1,8 @@
 <?php
 
-namespace Babylon\App;
-
 /**
- * Checkout object responsible for scanning of
- * items and calculation of total price of basket
+ * Checkout object responsible for the scanning of
+ * items and calculation of total basket price
  */
 interface CheckoutInterface
 {
@@ -24,8 +22,9 @@ interface CheckoutInterface
 
     /**
      * Calculate total price of the basket including promotions
+     * Returns price string in the £X.XX format  
      *
-     * @return float
+     * @return string 
      */
     public function total();
 }

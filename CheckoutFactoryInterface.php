@@ -1,7 +1,5 @@
 <?php
 
-namespace Babylon\App;
-
 /**
  * Factory which is responsible for the
  * creation of the new checkout object
