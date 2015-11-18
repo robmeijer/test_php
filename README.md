@@ -15,7 +15,7 @@ Our check-out can scan items in any order, and because our promotions will chang
 
 Example checkout usage looks like this:
 ```php
-$co = new Checkout($promotionalRules);
+$co = CheckoutFactory::create();
 $co->scan($item);
 $co->scan($item);
 $price = $co->total();
