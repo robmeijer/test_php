@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Checkout\Contracts;
+
 /**
  * Factory which is responsible for the
  * creation of the new checkout object
